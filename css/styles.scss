@@ -1,0 +1,17 @@
+$color-primary: rgb(64, 54, 80);
+$color-secondary: #5637DD;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+
+h1 {
+    font-size: 2.25rem;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: $color-primary;
+}
+
+.site-footer {
+    background-color: $color-primary;
+    color: white;
+}
