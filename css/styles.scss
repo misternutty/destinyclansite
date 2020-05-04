@@ -1,6 +1,10 @@
 $color-primary: rgb(64, 54, 80);
-$color-secondary: #5637DD;
+$color-secondary: rgb(165, 161, 185);
 $color-transparent-black: rgba(0, 0, 0, 0.5);
+
+body {
+    background-color: $color-primary;
+}
 
 h1 {
     font-size: 2.25rem;
@@ -16,12 +20,32 @@ h1 {
     color: white;
 }
 
+.container {
+    margin: 1rem auto;
+}
+
 #splash {
     max-width: 100%;
     min-height: 700px;
-    background-image: url('../img/gear.jpg');
+    background: url('../img/gear.jpg') center;
+    background-size: cover;
 
     .row {
         height: 600px;
     }
+}
+
+#rosterHighlight {
+    background-color: $color-secondary;
+}
+
+#mediaCarousel {
+    padding: 0;
+    img {
+        width: 100%;
+    }
+}
+
+#eventHighlight {
+    background-color: $color-secondary;
 }

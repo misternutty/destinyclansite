@@ -1,3 +1,6 @@
+body {
+  background-color: #403650; }
+
 h1 {
   font-size: 2.25rem;
   margin-bottom: 0; }
@@ -9,9 +12,24 @@ h1 {
   background-color: #403650;
   color: white; }
 
+.container {
+  margin: 1rem auto; }
+
 #splash {
   max-width: 100%;
   min-height: 700px;
-  background-image: url("../img/gear.jpg"); }
+  background: url("../img/gear.jpg") center;
+  background-size: cover; }
   #splash .row {
     height: 600px; }
+
+#rosterHighlight {
+  background-color: #a5a1b9; }
+
+#mediaCarousel {
+  padding: 0; }
+  #mediaCarousel img {
+    width: 100%; }
+
+#eventHighlight {
+  background-color: #a5a1b9; }
