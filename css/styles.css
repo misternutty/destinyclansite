@@ -8,3 +8,10 @@ h1 {
 .site-footer {
   background-color: #403650;
   color: white; }
+
+#splash {
+  max-width: 100%;
+  min-height: 700px;
+  background-image: url("../img/gear.jpg"); }
+  #splash .row {
+    height: 600px; }
