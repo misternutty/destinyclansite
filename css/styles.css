@@ -14,7 +14,9 @@ h1 {
 
 .site-footer {
   background-color: #5640B3;
-  color: white; }
+  color: #6AE2E7; }
+  .site-footer i {
+    color: #6AE2E7; }
 
 .container {
   margin: 1rem auto; }

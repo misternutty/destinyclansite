@@ -34,7 +34,10 @@ h1 {
 
 .site-footer {
     background-color: $color-accent-dark;
-    color: white;
+    color: $color-accent-light;
+    i {
+        color: $color-accent-light;
+    }
 }
 
 .container {
