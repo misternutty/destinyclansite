@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/misternutty/destinyclansite#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.4.1",
     "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "~3.4.1",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {

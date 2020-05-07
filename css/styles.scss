@@ -1,17 +1,85 @@
+$color-primary-pop: #FF4DD8;
+$color-primary-dark: #180A20;
+$color-accent-light: #6AE2E7;
+$color-accent: #827BF7;
+$color-accent-dark: #5640B3;
+$color-gray-lightest: #F2F2F2;
+$color-gray-light: #EBEBEB;
+$color-gray: #CCCCCC;
+$color-gray-dark: #999999;
+$color-gray-darkest: #666666;
 $color-primary: rgb(64, 54, 80);
-$color-secondary: #5637DD;
+$color-secondary: rgb(165, 161, 185);
 $color-transparent-black: rgba(0, 0, 0, 0.5);
+
+$font-title: 'Righteous', open-sans;
+
+body {
+    background-color: $color-primary-dark;
+}
 
 h1 {
     font-size: 2.25rem;
+}
+
+.title {
+    color: $color-accent-light;
+    font-family: $font-title;
     margin-bottom: 0;
 }
 
 .navbar {
-    background-color: $color-primary;
+    background-color: $color-accent-dark;
 }
 
 .site-footer {
-    background-color: $color-primary;
-    color: white;
+    background-color: $color-accent-dark;
+    color: $color-accent-light;
+    i {
+        color: $color-accent-light;
+    }
+}
+
+.container {
+    margin: 1rem auto;
+}
+
+.btn-primary {
+    background-color: $color-primary-pop;
+    border-color: $color-accent-light;
+}
+
+#splash {
+    max-width: 100%;
+    min-height: 700px;
+    background: url('../img/gear.jpg') center;
+    background-size: cover;
+
+    .row {
+        height: 600px;
+    }
+}
+
+#rosterHighlight {
+    background-color: $color-gray;
+    .title {
+        color: $color-accent-dark;
+    }
+}
+
+#mediaCarousel {
+    padding: 0;
+    img {
+        width: 100%;
+    }
+}
+
+#eventHighlight {
+    background-color: $color-gray;
+    .title {
+        color: $color-accent-dark;
+    }
+    .date {
+        background-color: $color-gray-dark;
+    }
 }

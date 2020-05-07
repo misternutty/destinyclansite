@@ -1,10 +1,51 @@
+body {
+  background-color: #180A20; }
+
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.25rem; }
+
+.title {
+  color: #6AE2E7;
+  font-family: "Righteous", open-sans;
   margin-bottom: 0; }
 
 .navbar {
-  background-color: #403650; }
+  background-color: #5640B3; }
 
 .site-footer {
-  background-color: #403650;
-  color: white; }
+  background-color: #5640B3;
+  color: #6AE2E7; }
+  .site-footer i {
+    color: #6AE2E7; }
+
+.container {
+  margin: 1rem auto; }
+
+.btn-primary {
+  background-color: #FF4DD8;
+  border-color: #6AE2E7; }
+
+#splash {
+  max-width: 100%;
+  min-height: 700px;
+  background: url("../img/gear.jpg") center;
+  background-size: cover; }
+  #splash .row {
+    height: 600px; }
+
+#rosterHighlight {
+  background-color: #CCCCCC; }
+  #rosterHighlight .title {
+    color: #5640B3; }
+
+#mediaCarousel {
+  padding: 0; }
+  #mediaCarousel img {
+    width: 100%; }
+
+#eventHighlight {
+  background-color: #CCCCCC; }
+  #eventHighlight .title {
+    color: #5640B3; }
+  #eventHighlight .date {
+    background-color: #999999; }
