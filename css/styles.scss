@@ -103,3 +103,13 @@ h1 {
         background-color: $color-gray-dark;
     }
 }
+
+#event {
+    background-color: $color-gray;
+    .title {
+        color: $color-accent-dark;
+    }
+    .date {
+        background-color: $color-gray-dark;
+    }
+}

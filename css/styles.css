@@ -59,3 +59,10 @@ h1 {
     color: #5640B3; }
   #eventHighlight .date {
     background-color: #999999; }
+
+#event {
+  background-color: #CCCCCC; }
+  #event .title {
+    color: #5640B3; }
+  #event .date {
+    background-color: #999999; }
