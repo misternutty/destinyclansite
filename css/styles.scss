@@ -1,3 +1,7 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
 $color-primary-pop: #FF4DD8;
 $color-primary-dark: #180A20;
 $color-accent-light: #6AE2E7;
@@ -34,6 +38,10 @@ h1 {
     }
 }
 
+.btn-pop {
+    @include button-variant($color-primary-pop, $color-accent-light);
+}
+
 .title {
     color: $color-accent-light;
     font-family: $font-title;
@@ -56,11 +64,6 @@ h1 {
     margin: 1rem auto;
 }
 
-.btn-primary {
-    background-color: $color-primary-pop;
-    border-color: $color-accent-light;
-}
-
 .media {
     background-color: $color-gray;    
     img {
@@ -69,6 +72,18 @@ h1 {
     }
     .title {
         color: $color-accent-dark;
+    }
+}
+
+.modal-content {
+    background-color: $color-gray;
+    .modal-header {
+        border-bottom: 1px solid $color-gray-dark;
+        font-family: $font-title;
+        color: $color-accent-dark;
+    }
+    .modal-footer {
+        border-top: 1px solid $color-gray-dark;
     }
 }
 
