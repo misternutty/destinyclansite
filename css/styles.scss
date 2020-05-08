@@ -1,3 +1,7 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
 $color-primary-pop: #FF4DD8;
 $color-primary-dark: #180A20;
 $color-accent-light: #6AE2E7;
@@ -22,6 +26,22 @@ h1 {
     font-size: 2.25rem;
 }
 
+.a-unstyled {
+    &,
+    &:link,
+    &:visited,
+    &:hover,
+    &:active,
+    &:active:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+}
+
+.btn-pop {
+    @include button-variant($color-primary-pop, $color-accent-light);
+}
+
 .title {
     color: $color-accent-light;
     font-family: $font-title;
@@ -44,9 +64,27 @@ h1 {
     margin: 1rem auto;
 }
 
-.btn-primary {
-    background-color: $color-primary-pop;
-    border-color: $color-accent-light;
+.media {
+    background-color: $color-gray;    
+    img {
+        padding-right: 1rem;
+        max-width: 35%;        
+    }
+    .title {
+        color: $color-accent-dark;
+    }
+}
+
+.modal-content {
+    background-color: $color-gray;
+    .modal-header {
+        border-bottom: 1px solid $color-gray-dark;
+        font-family: $font-title;
+        color: $color-accent-dark;
+    }
+    .modal-footer {
+        border-top: 1px solid $color-gray-dark;
+    }
 }
 
 #splash {
@@ -54,17 +92,16 @@ h1 {
     min-height: 700px;
     background: url('../img/gear.jpg') center;
     background-size: cover;
-
     .row {
         height: 600px;
+    }
+    p {
+        text-shadow: 2px 2px 4px black;
     }
 }
 
 #rosterHighlight {
     background-color: $color-gray;
-    .title {
-        color: $color-accent-dark;
-    }
 }
 
 #mediaCarousel {
@@ -81,5 +118,34 @@ h1 {
     }
     .date {
         background-color: $color-gray-dark;
+    }
+}
+
+#event {
+    background-color: $color-gray;
+    .title {
+        color: $color-accent-dark;
+    }
+    .date {
+        background-color: $color-gray-dark;
+    }
+}
+
+#rules {
+    background-color: $color-gray;
+    padding: 1rem;
+    .title {
+        color: $color-accent-dark;
+    }
+    li {
+        font-weight: bolder;
+    }
+}
+
+#application {
+    background-color: $color-gray;
+    padding: 1rem;
+    .title {
+        color: $color-accent-dark;
     }
 }

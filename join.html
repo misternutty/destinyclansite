@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>Cherie's Angels - A Destiny 2 Clan</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="a-unstyled" href="index.html"><h1 class="title">CHERIE'S ANGELS</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="siteNav" class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="roster.html">Roster</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Apply</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="rules" class="container">
+        <h2 class="title text-center">Rules</h2>
+        <ul>
+            <li>You must be 18+</li>
+            <p>This is only a requirement because the clan takes no precautions to be kid-friendly.</p>
+            <li>Do your best</li>
+            <p>You don't have to be the hardest of the hardcore, but all effort you put forth will improve your experience and the experience of your clanmates.</p>
+            <li>Don't be toxic</li>
+            <p>We're all here to have a good time. Try not to do so at the expense of others.</p>
+        </ul>
+    </div>
+
+    <div id="application" class="container">
+        <h2 class="title text-center">Application</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">User Name</label>
+                <input type="text" class="form-control" id="username" placeholder="what do others call you?">
+            </div>
+            <div class="form-group">
+                <label for="profile">Steam Profile Link</label>
+                <input type="text" class="form-control" id="username" placeholder="https://steamcommunity.com/id/">
+            </div>
+            <div class="form-group">
+                <label for="birthDate">Birth Date</label>
+                <input type="date" id="birthDate" class="form-control" name="birthDate" placeholder="mm/dd/yyyy" />
+            </div>
+            <button type="submit" class="btn btn-pop col-4 offset-4" onclick="javascript: return false;" data-toggle="modal" data-target="#submittedModal">Submit</button>
+        </form>
+    </div>
+
+    <div class="modal fade" id="submittedModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Thanks for Applying!</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Now you can apply to join the clan on Bungie.net!</p>
+                    <p>While you wait to be accepted, why not join the Discord server?</p>
+                    <a href="https://discordapp.com/"><i class="fas fa-external-link-alt"></i> Discord Invite Link</a>
+                </div>
+                <div class="modal-footer">
+                    <a type="button" class="btn btn-pop" href="https://www.bungie.net/">Bungie.net Clan Page</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container my-0">
+            <div class="row row-content py-3">
+                <div class="col text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon" href="https://discordapp.com/">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a class="btn btn-social-icon" href="http://twitter.com/">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-social-icon" href="https://www.reddit.com/r/LowSodiumDestiny/">
+                        <i class="fab fa-reddit"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>

@@ -21,16 +21,16 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a href="#"><h1 class="title">CHERIE'S ANGELS</h1></a>
+            <a class="a-unstyled" href="#"><h1 class="title">CHERIE'S ANGELS</h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div id="siteNav" class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav text-right">
                     <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Roster</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Apply</a></li>
+                    <li class="nav-item"><a class="nav-link" href="roster.html">Roster</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="join.html">Apply</a></li>
                 </ul>
             </div>
         </div>
@@ -38,25 +38,36 @@
 
     <div id="splash" class="container mx-0 mt-0">
         <div class="row row-content mx-0 align-items-end">
-            <div class="col">
-                <p class="text-light text-center">Intro text description introducing the guild</p>
-                <button class="col-4 offset-4 btn btn-lg btn-primary">JOIN</button>
+            <div class="col-md-4 offset-md-4">
+                <p class="text-light text-center">
+                    We are a Destiny 2 clan of chill adults who recognize that we must coordinate to maximize our most 
+                    precious resource, time.
+                </p>
+                <p class="text-light text-center">
+                    Together Guardians strong.
+                </p>
+                <p class="text-light text-center">
+                    We are Cherie's Angels.
+                </p>
+                <a role="button" class="col-4 offset-4 btn btn-lg btn-pop" href="join.html">JOIN</a>
             </div>
         </div>
     </div>
 
-    <div id="rosterHighlight" class="container p-3">
-        <div class="row row-content">
-            <h2 class="col-4 col-sm-8 align-self-center title">Hungry Shrimp</h2>
-            <div class="col-8 col-sm-4"><img class="w-100 h-auto" src="img/roster/hungryshrimp.png"></div>
-        </div>
-        <div class="row row-content">
-            <p class="col mb-0">
-                Hungry Shrimp is a cool dude who can help with most content in the game, though maybe plan
-                for a little extra time on those jumping puzzles. You'll often find him in the crucible
-                titan smashing the competition.
-            </p>
-        </div>
+    <div id="rosterHighlight" class="container">
+        <a class="a-unstyled" href="roster.html">
+            <div class="media p-3">
+                <img src="img/roster/hungryshrimp.png">
+                <div class="media-body">
+                    <h2 class="title">Hungry Shrimp</h2>
+                    <p>
+                        Hungry Shrimp is a cool dude who can help with most content in the game, though maybe plan
+                        for a little extra time on those jumping puzzles. You'll often find him in the crucible
+                        titan smashing the competition.
+                    </p>
+                </div>
+            </div>
+        </a>
     </div>
 
     <div id="mediaCarousel" class="carousel slide" data-ride="carousel">
@@ -100,21 +111,23 @@
     </div>
 
     <div id="eventHighlight" class="container p-3">
-        <div class="row row-content px-3">
-            <span class="col-3 py-3 text-center date">
-                <h2>MAY</h2>
-                <h3>08</h3>
-            </span>
-            <div class="col-9">
-                <h2 class="title">Casual Crucible Night</h2>
-                <p>6:00PM PST</p>
+        <a class="a-unstyled" href="events.html">
+            <div class="row row-content px-3">
+                <span class="col-3 py-3 text-center date">
+                    <h2>MAY</h2>
+                    <h3>11</h3>
+                </span>
+                <div class="col-9">
+                    <h2 class="title">Casual Crucible Night</h2>
+                    <p>6:00PM PST</p>
+                </div>
             </div>
-        </div>
-        <div class="row row-content">
-            <p class="col mb-0">
-                Gather up for some low-stakes Crucible. Grab your favorite beverage and play some control or rotating playlist with your clanmates!
-            </p>
-        </div>
+            <div class="row row-content">
+                <p class="col mb-0">
+                    Gather up for some low-stakes Crucible. Grab your favorite beverage and play some control or rotating playlist with your clanmates!
+                </p>
+            </div>
+        </a>
     </div>
 
     <footer class="site-footer">
@@ -133,7 +146,7 @@
                     </a>
                 </div>
                 <div class="col text-center">
-                    <a class="btn btn-primary btn-lg my-2" role="button">JOIN</a>
+                    <a class="btn btn-pop btn-lg my-2" href="join.html" role="button">JOIN</a>
                 </div>
             </div>
         </div>
