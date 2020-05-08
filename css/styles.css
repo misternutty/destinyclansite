@@ -66,3 +66,17 @@ h1 {
     color: #5640B3; }
   #event .date {
     background-color: #999999; }
+
+#rules {
+  background-color: #CCCCCC;
+  padding: 1rem; }
+  #rules .title {
+    color: #5640B3; }
+  #rules li {
+    font-weight: bolder; }
+
+#application {
+  background-color: #CCCCCC;
+  padding: 1rem; }
+  #application .title {
+    color: #5640B3; }

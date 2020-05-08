@@ -113,3 +113,22 @@ h1 {
         background-color: $color-gray-dark;
     }
 }
+
+#rules {
+    background-color: $color-gray;
+    padding: 1rem;
+    .title {
+        color: $color-accent-dark;
+    }
+    li {
+        font-weight: bolder;
+    }
+}
+
+#application {
+    background-color: $color-gray;
+    padding: 1rem;
+    .title {
+        color: $color-accent-dark;
+    }
+}
