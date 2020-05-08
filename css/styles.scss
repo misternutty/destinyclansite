@@ -77,9 +77,11 @@ h1 {
     min-height: 700px;
     background: url('../img/gear.jpg') center;
     background-size: cover;
-
     .row {
         height: 600px;
+    }
+    p {
+        text-shadow: 2px 2px 4px black;
     }
 }
 

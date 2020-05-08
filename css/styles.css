@@ -44,6 +44,8 @@ h1 {
   background-size: cover; }
   #splash .row {
     height: 600px; }
+  #splash p {
+    text-shadow: 2px 2px 4px black; }
 
 #rosterHighlight {
   background-color: #CCCCCC; }
