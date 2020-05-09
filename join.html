@@ -49,19 +49,19 @@
     </div>
 
     <div id="application" class="container">
-        <h2 class="title text-center">Application</h2>
+        <h2 class="title text-center mb-3">Application</h2>
         <form>
-            <div class="form-group">
-                <label for="username">User Name</label>
-                <input type="text" class="form-control" id="username" placeholder="what do others call you?">
+            <div class="form-group row">
+                <label for="username" class="col-sm-3 col-lg-2 offset-sm-1">User Name</label>
+                <input type="text" class="form-control col-sm-6 mx-2" id="username" placeholder="what do others call you?">
             </div>
-            <div class="form-group">
-                <label for="profile">Steam Profile Link</label>
-                <input type="text" class="form-control" id="username" placeholder="https://steamcommunity.com/id/">
+            <div class="form-group row">
+                <label for="profile" class="col-sm-3 col-lg-2 offset-sm-1">Steam Profile Link</label>
+                <input type="text" class="form-control col-sm-6 mx-2" id="username" placeholder="https://steamcommunity.com/id/">
             </div>
-            <div class="form-group">
-                <label for="birthDate">Birth Date</label>
-                <input type="date" id="birthDate" class="form-control" name="birthDate" placeholder="mm/dd/yyyy" />
+            <div class="form-group row">
+                <label for="birthDate" class="col-sm-3 col-lg-2 offset-sm-1">Birth Date</label>
+                <input type="date" id="birthDate" class="form-control col-sm-6 mx-2" name="birthDate" placeholder="mm/dd/yyyy" />
             </div>
             <button type="submit" class="btn btn-pop col-4 offset-4" onclick="javascript: return false;" data-toggle="modal" data-target="#submittedModal">Submit</button>
         </form>
